@@ -4,7 +4,7 @@
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Dim paper As Graphics
-        Dim foto As New Bitmap("Koereurchinees.jpg")
+        Dim foto As New Bitmap("Koereurbelg.jpg")
 
         paper = PictureBox1.CreateGraphics()
         Dim myPen As Pen = New Pen(Color.Black)
